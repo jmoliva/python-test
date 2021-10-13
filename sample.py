@@ -1,6 +1,8 @@
 import datetime
 import socket
 
+# use this: https://faun.pub/hello-world-in-docker-using-python-9b3eb418fb15
+
 host = socket.gethostname()
 now = datetime.datetime.now()
 nowS = now.strftime("%m/%d/%Y, %H:%M:%S")
